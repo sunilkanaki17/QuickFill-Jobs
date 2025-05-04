@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>AutoFill Setup</title>
+  <title>QuickFill</title>
+  <style>
+    body { font-family: sans-serif; width: 200px; padding: 10px; }
+    input, button { display: block; width: 100%; margin-bottom: 10px; }
+  </style>
 </head>
 <body>
-  <h3>Enter Your Info</h3>
-  <input type="text" id="name" placeholder="Full Name"><br><br>
-  <input type="email" id="email" placeholder="Email"><br><br>
-  <input type="text" id="phone" placeholder="Phone Number"><br><br>
-  <button id="save">Save</button>
+  <input type="text" id="name" placeholder="Full Name" />
+  <input type="text" id="email" placeholder="Email Address" />
+  <input type="text" id="phone" placeholder="Phone Number" />
+  <button id="saveBtn">Save</button>
+  <button id="fillBtn">Fill Now</button>
+  <script src="popup.js"></script>
 </body>
-<script src="popup.js"></script>
 </html>
